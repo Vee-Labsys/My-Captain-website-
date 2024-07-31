@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veer Kakadiya for Senior Assistant Captain</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            padding: 1em;
+        }
+        section {
+            margin: 1em 0;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        form {
+            background-color: white;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vote Veer Kakadiya for Senior Assistant Captain!</h1>
+    </header>
+    <main>
+        <section id="campaign">
+            <h2>Why Vote for Me?</h2>
+            <p>Hello, my name is Veer Kakadiya, and I am running for Senior Assistant Captain. I believe in making our school a better place for everyone. My vision includes:</p>
+            <ul>
+                <li>Improving school facilities</li>
+                <li>Organizing more student events</li>
+                <li>Addressing student concerns promptly</li>
+            </ul>
+        </section>
+        <section id="share-problems">
+            <h2>Share Your Problems</h2>
+            <p>Your feedback is important to me. Please share any problems or suggestions you have, and I will do my best to address them.</p>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="problem">Your Problem/Suggestion:</label>
+                <textarea id="problem" name="problem" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
